@@ -1,0 +1,43 @@
+.home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 3rem;
+}
+
+.container-fluid{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content{
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 28rem; /* Sesuaikan tinggi card sesuai kebutuhan */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    width:auto;
+    position: relative;
+}
